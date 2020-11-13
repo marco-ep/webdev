@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SpeedReader</title>
+
+		<meta charset="utf-8" />
+		<link href="speedreader.css" type="text/css" rel="stylesheet" />
+        <script src="speedreader.js"></script>
+	</head>
+	<body>
+        <h1>SpeedReader</h1>   
+        <div id="display">
+            <p><span id="dis"></span></p>
+        </div>
+        
+        
+        <!--controls-->
+        <div id="controls">
+            <fieldset class="fields">
+                <label>Play Controls:</label>
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+            </fieldset>
+            <fieldset class="fields">
+                <label>Speed:</label>
+                <select type="radio" id="wpm">
+                    <option name="rate" value="500">50 wpm</option> 
+                    <option name="rate" value="200">300 wpm</option>
+                    <option name="rate" selected="selected" value="171">350 wpm</option>
+                    <option name="rate" value="150">400 wpm</option> 
+                    <option name="rate" value="133">450 wpm</option>
+                    <option name="rate" value="120">500 wpm</option>
+                </select>
+            </fieldset>
+            <fieldset class="fields">
+                <label>Size:</label>
+                <input type="radio" checked="checked" name="size" value="36pt" id="size">
+                    Medium
+                <input type="radio" name="size" value="48pt" id="size">
+                    Big
+                <input type="radio" name="size" value="60pt" id="size">
+                    Bigger
+            </fieldset>
+        
+        </div>
+        <div id="textdiv">
+            <fieldset id="textfield">
+                <label>Input Text</label>
+                <textarea name="text" rows="10" cols="80" id="inptxt">
+                    
+                </textarea>
+            </fieldset>
+        </div>
+        
+        <div id= "w3c">
+                <a href="https://webster.cs.washington.edu/validate-html.php"><img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="Valid HTML5" /></a>
+                <a href="https://webster.cs.washington.edu/validate-css.php"><img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="Valid CSS" /></a>
+                <a href="https://webster.cs.washington.edu/jslint/?referer"><img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="Valid CSS" /></a> 
+        </div>
+    </body>
+</html>

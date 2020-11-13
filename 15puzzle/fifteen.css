@@ -1,0 +1,48 @@
+body{
+    font-family: cursive;
+    font-size: 14pt;
+}
+
+h1,p{
+  text-align: center; 
+}
+
+#w3c{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+
+#puzzlearea{
+    font-size: 40pt;
+    width:400px;
+    height: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    
+     
+}
+
+#output{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40pt;
+    color: chartreuse;
+}
+
+
+.puzzlepiece{
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+
+
+.highlight:hover{
+    border-color: red;
+    color: red;
+}

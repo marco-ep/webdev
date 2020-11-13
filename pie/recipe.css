@@ -1,0 +1,70 @@
+
+body {
+    font-family: "Georgia";
+    font-size:11px;
+    background-image: url("https://webster.cs.washington.edu/images/silverware.jpg");
+    background-attachment: fixed;
+}
+ul{
+    list-style-image: url("https://webster.cs.washington.edu/images/pie-icon.gif");
+}
+h1{
+    color:#A4A400 ;
+    background-color: #F0F0F0;
+    font-family:"Lucida Sans Unicode";
+    text-decoration: underline;
+    text-align: center;
+    font-size: 22px;
+}
+h2{
+    color:#A4A400 ;
+    background-color: #F0F0F0;
+    font-family:"Lucida Sans Unicode";
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: normal; 
+}
+div{
+    border-bottom: 1px solid;
+}
+h3 span{
+    color:#404040;
+    font-size: 11px;
+    font-weight: normal;
+}
+abbr{
+    text-decoration: underline;
+}
+.comments p{
+    background-color: rgb(255,254,173);
+    font-style:italic;
+    margin-left:32px;
+    
+}
+
+a{
+   color:#A4A400 ; 
+    
+}
+.copyright{
+    font-family: monospace;
+}
+#span1{
+    margin-left: 1.2em;
+}
+#span2{
+    margin-left: 2.4em;
+}
+#b1{
+    background-image:url("https://webster.cs.washington.edu/images/w3c-html.png");
+   
+    height:31px;
+    width:88px;
+}
+#b2{
+    background-image:url("https://webster.cs.washington.edu/images/w3c-css.png");
+    margin-left: .5em;
+    height:31px;
+    width:88px;
+}
+
